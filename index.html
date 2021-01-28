@@ -34,9 +34,10 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Hyperspace</h1>
-							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<h1>期中作业</h1>
+							<p>1、通过分析 github 网站应用，使用 staruml 建立以下 3 个系统功能的顺序图和活动图模型。这 3 个功能分别是：
+								（1）Repositories(仓库)项目代码托管功能；（2）版本管理功能；（3）代码查找功能。
+2.对照 UML 顺序图和活动图，写一份建模说明，描述该系统功能的详细业务流程，请加上建模思路。</a>.</p>
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
 							</ul>
@@ -49,8 +50,9 @@
 							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>（1）Repositories(仓库)项目代码托管功能</h2>
+									<p>用户在用户界面进行账号输入，用户账号在服务器进行账号验证，如果账号正确则验证成功，否则验证失败。
+										用户验证成功后进行创建仓库，仓库创建成功后仓库中用户可以进行编辑文件，上传文件，删除文件的操作。服务器可以进行更新文件操作。更新成功后返回信息给用户。</p>
 									<ul class="actions">
 										<li><a href="generic.html" class="button">Learn more</a></li>
 									</ul>
@@ -61,8 +63,10 @@
 							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>（2）版本管理功能</h2>
+									<p>用户首先在用户界面输入账号密码到服务器。服务器进行账号密码验证如果账号密码正确则在 用户界面显示验证成功。
+										否则在用户界面显示账号密码错误请重新输入。用户账号密码验证成功后，用户界面显示上传新数据、修改数据、删除数据等功能。
+										点击相应的功能，仓库数据库就可以进行对应功能的实现，然后更新数据到服务器。服务器把更新成功的提示显示到用户界面。</p>
 									<ul class="actions">
 										<li><a href="generic.html" class="button">Learn more</a></li>
 									</ul>
@@ -73,8 +77,8 @@
 							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>（3）代码查找功能</h2>
+									<p>用户在仓库界面输入要查找的代码，仓库界面转到包含代码所对应的文件并在文件中找到与要搜索代码有关的代码，然后把查找到的代码返回到仓库界面提供给用户查看。</p>
 									<ul class="actions">
 										<li><a href="generic.html" class="button">Learn more</a></li>
 									</ul>
